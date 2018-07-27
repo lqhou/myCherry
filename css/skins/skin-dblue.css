@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* 蓝莓蓝(深色) */
+
+a {
+    color: #5b5b5b;
+    text-decoration: none;
+}
+a:link {
+    color: #5b5b5b;
+    text-decoration: none;
+}
+a:visited {
+    color: #5b5b5b;
+    text-decoration: none;
+}
+a:hover {
+    color: #28779b;
+    text-decoration: none;
+}
+a:active {
+    color: #5b5b5b;
+    text-decoration: none;
+}
+
+.loading {
+    background: #e84c3d;
+}
+.circle-loading {
+    border: 2px solid #e84c3d;
+    border-bottom: 2px solid transparent;
+}
+
+.to-top {
+    background: #28779b;
+}
+.to-top:hover {
+    background:#e84c3d;
+}
+
+.banner {
+    background-color: #28779b;
+}
+
+.head-top {
+    background-color: #324056;
+}
+
+.head-top a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.siteinfo {
+    color: #3e3e3e;
+}
+.sitetitle a:hover {
+    color: #000000 !important;
+}
+
+.socialbox ul li i:hover {
+    color: #28779b;
+}
+
+.pagenavi span, .pagenavi a:hover {
+    color: #ffffff !important;
+    background: #28779b;
+}
+
+/* SideBar */
+.sidebox>h2 {
+    border-bottom: solid 3px #28779b;
+}
+.recentc-box i {
+    color: #28779b;
+}
+
+.tagcloud a:hover{
+    background-color: #28779b;
+    color: #ffffff !important;
+}
+
+
+/*#search-3 {
+    background-color: yellow;
+}*/
+.mc_search input[type=submit] {background-color: #28779b;}
+.mc_search input[type=submit]:hover {background-color: #e84c3d;}
+.mc_search input[type=text] { border: 1px solid #28779b; }
+
+/* button */
+.sideio li a {
+    color: #0f4b6d !important;
+    border: 1px solid #a5a5a5 !important;
+    background-color: #a9adb1;
+    background-image: url('../../images/button_bg.png'), url('../../images/button_bg.png'),
+    -moz-radial-gradient(center bottom, circle, rgba(197,199,202,1) 0, rgba(197,199,202,0) 100px),
+    -moz-linear-gradient(#c5c7ca, #92989c);
+    background-image: url('../../images/button_bg.png'), url('../../images/button_bg.png'),
+    -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100,from(rgba(197,199,202,1)),to(rgba(197,199,202,0))),
+    -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c5c7ca), to(#92989c));
+}
+.sideio li a:hover {
+    background-color:#28779b;	
+    background-image:	url('../../images/button_bg.png'), url('../../images/button_bg.png'),
+    -moz-radial-gradient(center bottom, circle,	rgba(66,139,202,1) 0,rgba(66,139,202,0) 100px),
+    -moz-linear-gradient(#7ec6ef, #28779b);				
+    background-image:	url('../../images/button_bg.png'), url('../../images/button_bg.png'),
+    -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100,from(rgba(66,139,202,1)), to(rgba(66,139,202,1))),
+    -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7ec6ef), to(#28779b));
+}
+
+/* position */
+#map .position a {color:#28779b;}
+
+/* post data */
+.post_date{
+	background-color:#28779b;
+}
+.small-number {
+    background: #28779b;
+}
+
+/* Article list */
+.article-info a:hover {
+    color: #28779b !important;
+}
+.article-info i {
+    color: #28779b;
+}
+.article-info-sub i {
+    color: #28779b;
+}
+
+.pagenavi span {
+    color: #28779b;
+}
+
+/* .sidebox:hover {
+    box-shadow: 0px 0px 1px #28779b;
+} */
+
+.label {
+    background-color: #28779b;
+}
+.label:hover {
+    color: #3e3e3e !important;
+}
+.label-arrow {
+    border-color: transparent transparent transparent #28779b;
+}
+.label-arrow1 {
+    color: #28779b;
+}
+.article-list h1>a:hover {
+    color: #28779b;
+}
+
+
+/* article */
+.articletitle a:hover {
+    color: #28779b !important;
+}
+.titleinfo {
+    border-bottom: 2px solid #28779b;
+}
+.titleinfo .fa {
+    color: #28779b;
+}
+.hpageinfo a:hover {
+    color: #28779b !important;
+}
+.hpageinfo .fa {
+    color: #28779b;
+}
+/* artcle content title */
+.article .a-content h1 {
+    border-left: 5px solid #28779b;
+}
+.article .a-content h1::before {
+    color: #28779b;
+}
+.article .a-content h2 {
+    border-bottom: 5px double #28779b;
+}
+.article .a-content h3 {
+    border: 2px dotted #28779b;
+}
+.article .a-content h3::before {
+    color: #28779b;
+}
+
+/* series articles title */
+.post-series h1 {
+    border: 2px dotted #28779b;
+}
+
+/* */
+#likebtn {
+    background-color: #28779b;
+}
+#sharebtn {
+    background-color: #28779b;
+}
+
+/* aside */
+.aside-info {
+    background-color: #28779b;
+}
+
+/* pages */
+.pagetitle {
+    border-left: 8px solid #28779b;
+}
+.pageleft .current_page_item a {
+    background-color: #d9d9d9;
+}
+.pageleft .current_page_item a:before {
+    content: "\f0a4";
+}
+.pageleft ul li a:hover {
+    background-color: #d9d9d9;
+}
+/* page tags */
+.list-inline a:hover,.ist-inlin a.current {
+    background: none repeat scroll 0 0 #28779b;
+    border: 5px solid #28779b;
+}
+
+/* preNext article */
+.pre_wrap:hover a {
+    color: #28779b;
+}
+.next_wrap:hover a {
+    color: #28779b;
+}
+
+/* footer */
+.mc_brlink a:hover {
+    color: #28779b !important;
+}
+.foot_about ul li a:hover {
+    color: #28779b;
+}

@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* 葡萄紫 */
+
+a {
+    color: #5b5b5b;
+    text-decoration: none;
+}
+a:link {
+    color: #5b5b5b;
+    text-decoration: none;
+}
+a:visited {
+    color: #5b5b5b;
+    text-decoration: none;
+}
+a:hover {
+    color: #8C198C;
+    text-decoration: none;
+}
+a:active {
+    color: #5b5b5b;
+    text-decoration: none;
+}
+
+.sitetitle a {
+    color: #ffffff;
+}
+.siteinfo {
+    color: #fff;
+}
+
+.loading {
+    background: #e84c3d;
+}
+.circle-loading {
+    border: 2px solid #e84c3d;
+    border-bottom: 2px solid transparent;
+}
+
+.to-top {
+    background: #8C198C;
+}
+.to-top:hover {
+    background:#e84c3d;
+}
+
+.banner {
+    background-color: #8C198C;
+}
+
+.head-top {
+    background-color: #324056;
+}
+
+.head-top a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.sitetitle a:hover {
+    color: #000000 !important;
+}
+
+.socialbox ul li i:hover {
+    color: #8c198c;
+}
+
+.pagenavi span, .pagenavi a:hover {
+    color: #ffffff !important;
+    background: #8c198c;
+}
+
+/* SideBar */
+.sidebox>h2 {
+    border-bottom: solid 3px #8c198c;
+}
+.recentc-box i {
+    color: #8c198c;
+}
+
+.tagcloud a:hover{
+    background-color: #8c198c;
+    color: #ffffff !important;
+}
+
+/*#search-3 {
+    background-color: yellow;
+}*/
+.mc_search input[type=submit] {background-color: #8c198c;}
+.mc_search input[type=submit]:hover {background-color: #e84c3d;}
+.mc_search input[type=text] { border: 1px solid #8c198c; }
+
+/* button */
+.sideio li a {
+    color: #0f4b6d !important;
+    border: 1px solid #a5a5a5 !important;
+    background-color: #a9adb1;
+    background-image: url('../../images/button_bg.png'), url('../../images/button_bg.png'),
+    -moz-radial-gradient(center bottom, circle, rgba(197,199,202,1) 0, rgba(197,199,202,0) 100px),
+    -moz-linear-gradient(#c5c7ca, #92989c);
+    background-image: url('../../images/button_bg.png'), url('../../images/button_bg.png'),
+    -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100,from(rgba(197,199,202,1)),to(rgba(197,199,202,0))),
+    -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c5c7ca), to(#92989c));
+}
+.sideio li a:hover {
+    background-color:#8c198c;	
+    background-image:	url('../../images/button_bg.png'), url('../../images/button_bg.png'),
+    -moz-radial-gradient(center bottom, circle,	rgba(140,25,140,1) 0,rgba(140,25,140,0) 100px),
+    -moz-linear-gradient(#a346a3, #8c198c);				
+    background-image:	url('../../images/button_bg.png'), url('../../images/button_bg.png'),
+    -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100,from(rgba(140,25,140,1)), to(rgba(140,25,140,1))),
+    -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a346a3), to(#8c198c));
+}
+
+/* position */
+#map .position a {color:#8c198c;}
+
+/* post data */
+.post_date{
+	background-color:#8c198c;
+}
+.small-number {
+    background: #8c198c;
+}
+
+/* Article list */
+.article-info a:hover {
+    color: #8c198c !important;
+}
+.article-info i {
+    color: #8c198c;
+}
+.article-info-sub i {
+    color: #8c198c;
+}
+
+.pagenavi span {
+    color: #8c198c;
+}
+
+/* .sidebox:hover {
+    box-shadow: 0px 0px 1px #8c198c;
+} */
+
+.label {
+    background-color: #8c198c;
+}
+.label:hover {
+    color: #3e3e3e !important;
+}
+.label-arrow {
+    border-color: transparent transparent transparent #8c198c;
+}
+.label-arrow1 {
+    color: #8c198c;
+}
+.article-list h1>a:hover {
+    color: #8c198c;
+}
+
+
+/* article */
+.articletitle a:hover {
+    color: #8c198c !important;
+}
+.titleinfo {
+    border-bottom: 2px solid #8c198c;
+}
+.titleinfo .fa {
+    color: #8c198c;
+}
+.hpageinfo a:hover {
+    color: #8c198c !important;
+}
+.hpageinfo .fa {
+    color: #8c198c;
+}
+/* artcle content title */
+.article .a-content h1 {
+    border-left: 5px solid #8c198c;
+}
+.article .a-content h1::before {
+    color: #8c198c;
+}
+.article .a-content h2 {
+    border-bottom: 5px double #8c198c;
+}
+.article .a-content h3 {
+    border: 2px dotted #8c198c;
+}
+.article .a-content h3::before {
+    color: #8c198c;
+}
+
+/* series articles title */
+.post-series h1 {
+    border: 2px dotted #8c198c;
+}
+
+/* */
+#likebtn {
+    background-color: #8c198c;
+}
+#sharebtn {
+    background-color: #8c198c;
+}
+
+/* aside */
+.aside-info {
+    background-color: #8c198c;
+}
+
+/* pages */
+.pagetitle {
+    border-left: 8px solid #8c198c;
+}
+.pageleft .current_page_item a {
+    background-color: #d9d9d9;
+}
+.pageleft .current_page_item a:before {
+    content: "\f0a4";
+}
+.pageleft ul li a:hover {
+    background-color: #d9d9d9;
+}
+/* page tags */
+.list-inline a:hover,.ist-inlin a.current {
+    background: none repeat scroll 0 0 #8c198c;
+    border: 5px solid #8c198c;
+}
+
+/* preNext article */
+.pre_wrap:hover a {
+    color: #8c198c;
+}
+.next_wrap:hover a {
+    color: #8c198c;
+}
+
+/* footer */
+.mc_brlink a:hover {
+    color: #8c198c !important;
+}
+.foot_about ul li a:hover {
+    color: #8c198c;
+}
